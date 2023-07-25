@@ -20,7 +20,6 @@ class Menu extends HTMLElement {
                     <ul>
                         <li><a href="#">Páginas</a>
                             <ul>
-                                <li><a href="nossa-historia.html">Nossa História</a></li>
                                 <li><a href="mensagens-noivos.html">Mensagens aos noivos</a></li>
                                 <li><a href="dicas.html">Dicas</a></li>
                                 <li><a href="padrinhos-madrinhas.html">Padrinhos e Madrinhas</a></li>
@@ -28,7 +27,7 @@ class Menu extends HTMLElement {
                         </li>
                         <li><a href="localizacao.html">Localização</a>
                             <ul>
-                                <li><a href="#">Dicas de Hospedagem</a></li>
+                                <li><a href="localizacao.html">Dicas de Hospedagem</a></li>
                                 <li><a href="cerimonia.html">Cerimônia</a></li>
                                 <li><a href="festa.html">Festa</a></li>
                             </ul>

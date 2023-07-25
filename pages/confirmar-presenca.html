@@ -4,42 +4,24 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="/css/confirmar-presenca.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/css/mensagem.css" media="screen" />
         <link rel="icon" type="image/png" href="../img/Anel.png"/>
-        <title>Presença</title>
+        <title>Mensagem</title>
     </head>
     <body>
         <header-menu></header-menu>
         <script src="../js/menu.js"></script>
         <div class="d-flex flex-column justify-content-center align-items-center">
-            <h1>CONFIRME SUA PRESENÇA</h1>
-            <div class="form">
-                <form action="a">
-                    <div class="form-header">
-                        <div class="title"></div>
-                    </div>
-                    <div class="input-group">
-                        <div class="input-box">
-                            <label for="firstname">Nome completo</label>
-                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome completo" required>
-                        </div>
-                        <div class="input-box">
-                            <label for="email">Email</label>
-                            <input id="email" type="email" name="email" placeholder="Digite seu Email" required>
-                            <label for="email">Você receberá a confirmação de presença neste e-mail.</label>
-                        </div>
-                        <div class="input-box">
-                            <label for="number">Telefone para contato</label>
-                            <input id="number" type="number" name="number" placeholder="(11)9999-9999" required>
-                        </div>
-                        <div class="input-box">
-                            <label for="observacao">Observações</label>
-                            <input id="observacao" type="observacao" name="observacao" placeholder="Escreva aqui alguma observação" required>
-                        </div>
-                            <button type="button" class="button">Enviar</button>
-                    </div>
-                </form>
-            </div>
+            <h1>FAÇA PARTE DA NOSSA HISTÓRIA DE AMOR, CONFIRME SUA PRESENÇA.</h1>
+            <form class="d-flex justify-content-center flex-column" action="https://formsubmit.co/bruna_rachel_miranda@hotmail.com" method="POST">
+                <input type="text" name="name" placeholder="Nome" required/>
+                <input type="email" name="email" placeholder="E-mail" required/>
+                <input type="tel" name="fone" placeholder="(xx)99999-7777" required/>
+                <textarea  name="message" placeholder="Escreva alguma observação" required></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/pages/presenca.html">
+                <button type="submit">Enviar</button>
+            </form>
         </div>
-</body>
+    </body>
 </html>

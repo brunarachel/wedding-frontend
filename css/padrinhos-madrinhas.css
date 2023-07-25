@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+* {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+body {
+    background: url(../img/fundo.png);
+    background-size: cover;
+}
+.d-flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.align-center {
+    align-items: center;
+}
+.w-100 {
+    width: 50%;
+    margin: 25%;
+    margin-top: 60px;
+}
+.w-200 {
+    margin-top: -153px;
+}
+.w-300 {
+    margin-top: -180px
+}
+.w-400 {
+    margin-top: -100px;
+}
+.w-500 {
+    margin-top: -152px;
+}
+.principal {
+    color: #8d5e32;
+    max-width: 1081px;
+    font-weight: bolder;
+    font-size: 23px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    text-align: justify;
+    margin-top: 102px;
+}
+.textlist {
+    color: #8d5e32;
+    max-width: 1081px;
+    font-size: 23px;
+    font-weight: 500;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    text-align: justify;
+}
+.ul,li,a {
+    list-style: none;
+    color: #8d5e32;
+}
+.inspiration {
+    text-align-last: center;
+}

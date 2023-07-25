@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    color:#8d5e32;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(../img/fundo.png);
+}

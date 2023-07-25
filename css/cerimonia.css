@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+body {
+    margin-top: 102px;
+    margin-bottom: 50px;
+    background: url(../img/fundo.png);
+}
+.textop {
+    font-family: 'Urbanist', sans-serif;
+    color: #8d5e32;
+    max-width: 1081px;
+    margin: 0px auto;
+    font-size: 23px;
+    line-height: 43px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: justify;
+    margin-top: 10px;
+}
+.display-flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.mt-40 {
+    margin-top: 40px;
+}

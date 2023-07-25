@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body {
+    min-height: 100vh;
+    background: url(../img/fundo.png);
+    background-size: cover;
+}
+.dresscode{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: #8d5e32;
+    max-width: 1081px;
+    font-size: 23px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    text-align: justify;
+}
+.gallery {
+    height: 569px;
+    width: 734px;
+    margin-top: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    margin-bottom: 20px;
+}
+
+.um {
+    height: 569px;
+    width: 734px;
+    margin-top: 49px;
+}
+.dois {
+    height: 569px;
+    width: 734px;
+    margin-top: 49px;
+}
+.paragrafo {
+    font-family: 'Quicksand', sans-serif;
+    color: #8d5e32;
+    max-width: 1081px;
+    font-size: 23px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    text-align: justify;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/mensagem.css" media="screen" />
+        <title>Mensagem</title>
+    </head>
+    <body>
+        <header-menu></header-menu>
+        <script src="../js/menu.js"></script>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <h1>Deixe sua mensagem para nós!</h1>
+            <form class="d-flex justify-content-center flex-column" action="https://formsubmit.co/bruna_rachel_miranda@hotmail.com" method="POST">
+                <input type="text" name="name" placeholder="Nome" required/>
+                <input type="email" name="email" placeholder="E-mail" required/>
+                <textarea  name="message" placeholder="Escreva aqui" required></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/pages/obrigado.html">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </body>
+</html>

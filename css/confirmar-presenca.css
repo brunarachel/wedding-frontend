@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    background: url(../img/fundo.png);
+}
+.container {
+    width: 80%;
+    height: 80hv;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(239, 233, 233, 0.212);
+    flex-direction: column;
+}
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #000001;
+}
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+.input-box label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000001;
+}
+.input-box input::placeholder {
+    color: #000001be;
+}
+.login-button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 420px;
+    height: 55px;
+    background-color: #8d5119;
+    border: none;
+    border-radius: 5px;
+}
+.login-button button:hover {
+    background-color: #9f6731;
+}
+.input-group {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-right: 5rem;
+}
+.button {
+    color: #FFF;
+    background-color: rgb(164, 115, 24);
+    border: none;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.d-flex {
+    display:flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}

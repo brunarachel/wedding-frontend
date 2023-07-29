@@ -21,7 +21,7 @@ class Menu extends HTMLElement {
                         <li><a href="#">Páginas</a>
                             <ul>
                                 <li><a href="mensagens-noivos.html">Mensagens aos noivos</a></li>
-                                <li><a href="dicas.html">Dicas</a></li>
+                                <li><a href="dicas.html">DressCode</a></li>
                                 <li><a href="padrinhos-madrinhas.html">Padrinhos e Madrinhas</a></li>
                             </ul>
                         </li>

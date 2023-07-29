@@ -22,6 +22,7 @@ h1 {
     font-style: normal;
     line-height: 2;
     text-align: justify;
+    margin-top: 64px;
 }
 .gallery {
     height: 569px;
@@ -56,6 +57,38 @@ img {
     line-height: 2;
     text-align: justify;
 }
+.paragrafodois {
+    font-family: 'Quicksand', sans-serif;
+    color: #8d5e32;
+    max-width: 1081px;
+    font-size: 23px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    text-align: justify;
+    margin-top: 965px;
+}
+
 .floresta {
     width: 100%;
 }
+.link {
+    background: #a47f6f;
+    color: #d9d6d3;
+    text-decoration: none;
+    font-weight: 700;
+    border-width: 4px;
+    border-style: solid;
+    border-top-color: #DFDFDF;
+    border-right-color: #a47f6f;
+    border-bottom-color: #a47f6f;
+    border-left-color: #a47f6f;
+   }
+   a:hover {
+    background: #B1B1B1;
+    color: #FFF;
+    font-weight: bold;
+    border-color: #B1B1B1;
+   }
+   

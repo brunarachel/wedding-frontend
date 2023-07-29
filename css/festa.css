@@ -16,9 +16,31 @@
     font-style: normal;
     line-height: 2;
     text-align: justify;
-    margin-top: 102px;
+    margin-top: -3%;
+}
+.w-100 {
+    width: 100%;
+    margin-top: 4%;
 }
 .container {
     display: flex;
     justify-content: space-around;
 }
+.link {
+    background: #a47f6f;
+    color: #d9d6d3;
+    text-decoration: none;
+    font-weight: 700;
+    border-width: 4px;
+    border-style: solid;
+    border-top-color: #DFDFDF;
+    border-right-color: #a47f6f;
+    border-bottom-color: #a47f6f;
+    border-left-color: #a47f6f;
+   }
+   a:hover {
+    background: #B1B1B1;
+    color: #FFF;
+    font-weight: bold;
+    border-color: #B1B1B1;
+   }

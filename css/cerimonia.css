@@ -13,6 +13,7 @@ body {
 }
 .w-100 {
     width: 100%;
+    margin-top: -5%;
 }
 .textop {
     font-family: 'Quicksand', sans-serif;

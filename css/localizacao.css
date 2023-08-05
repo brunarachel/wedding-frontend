@@ -10,10 +10,9 @@
 .dicas {
     font-family: 'Quicksand', sans-serif;
     color: #8d5e32;
-    max-width: 1081px;
-    margin: 0px auto;
-    padding: 24px 0px;
-    font-size: 23px;
+    margin: 0px 40px;
+    padding: 22px 0px;
+    font-size: 19px;
     font-weight: bolder;
     font-stretch: normal;
     font-style: normal;
@@ -28,10 +27,9 @@
 .principal {
     font-family: 'Quicksand', sans-serif;
     color: #8d5e32;
-    max-width: 1081px;
-    margin: 0px auto;
-    padding: 24px 0px;
-    font-size: 23px;
+    margin: 0px 40px;
+    padding: 22px 0px;
+    font-size: 19px;
     font-weight: bolder;
     font-stretch: normal;
     font-style: normal;
@@ -46,13 +44,71 @@
 .paragrafo {
     font-family: 'Quicksand', sans-serif;
     color: #8d5e32;
-    max-width: 1110px;
-    margin: 0px auto;
-    padding: 24px 0px;
-    font-size: 23px;
+    margin: 0px 40px;
+    padding: 22px 0px;
+    font-size: 19px;
     font-weight: bolder;
     font-stretch: normal;
     font-style: normal;
     line-height: 2;
     text-align: justify;
+}
+@media(min-width: 1200px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Quicksand', sans-serif;
+        background-image: url(fundo.png)
+    }
+    .dicas {
+        font-family: 'Quicksand', sans-serif;
+        color: #8d5e32;
+        max-width: 1081px;
+        margin: 0px auto;
+        padding: 24px 0px;
+        font-size: 23px;
+        font-weight: bolder;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+        text-decoration: none; 
+    }
+    .principal {
+        font-family: 'Quicksand', sans-serif;
+        color: #8d5e32;
+        max-width: 1081px;
+        margin: 0px auto;
+        padding: 24px 0px;
+        font-size: 23px;
+        font-weight: bolder;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        text-align: justify;
+        margin-top: 10px;
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    .paragrafo {
+        font-family: 'Quicksand', sans-serif;
+        color: #8d5e32;
+        max-width: 1110px;
+        margin: 0px auto;
+        padding: 24px 0px;
+        font-size: 23px;
+        font-weight: bolder;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        text-align: justify;
+    }
 }

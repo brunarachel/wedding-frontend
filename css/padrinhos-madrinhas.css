@@ -16,6 +16,28 @@ body {
 .align-center {
     align-items: center;
 }
+.folhagem {
+    width: 100%;
+    margin-top: 10%;
+}
+.mp {
+    width: 100%;
+}
+.cinza {
+    width: 100%;
+}
+.cores {
+    width: 100%;
+}
+.paleta {
+    width: 100%;
+}
+.padrinhos {
+    width: 100%;
+}
+.cinza {
+    width: 100%;
+}
 .w-100 {
     width: 50%;
     margin: 25%;
@@ -34,27 +56,41 @@ body {
     margin-top: -152px;
 }
 .principal {
+    margin: 0px 40px;
     color: #8d5e32;
-    max-width: 1081px;
     font-weight: bolder;
-    font-size: 23px;
+    font-size: 19px;
     font-stretch: normal;
     font-style: normal;
     line-height: 2;
     text-align: justify;
-    margin-top: 102px;
+    margin-top: 50px;
 }
 .textlist {
+    margin: 0px 40px;
     color: #8d5e32;
-    max-width: 1081px;
-    font-size: 23px;
-    font-weight: 500;
+    max-width: 100%;
     font-weight: bolder;
+    font-size: 19px;
     font-stretch: normal;
     font-style: normal;
     line-height: 2;
     text-align: justify;
+    margin-top: 50px;
 }
+
+.textlist p {
+    color: #8d5e32;
+    max-width: 100%;
+    font-weight: bolder;
+    font-size: 19px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    text-align: justify;
+    margin-top: 50px;
+}
+
 .ul,li,a {
     list-style: none;
     color: #8d5e32;
@@ -64,4 +100,72 @@ body {
 }
 .PM {
     margin-top: 20px;
+}
+@media(min-width: 1200px) {
+    * {
+        font-family: 'Quicksand', sans-serif;
+        text-decoration: none;
+    }
+    body {
+        background: url(../img/fundo.png);
+        background-size: cover;
+    }
+    .d-flex {
+        display: flex;
+    }
+    .flex-column {
+        flex-direction: column;
+    }
+    .align-center {
+        align-items: center;
+    }
+    .w-100 {
+        width: 50%;
+        margin: 25%;
+        margin-top: 60px;
+    }
+    .w-200 {
+        margin-top: -153px;
+    }
+    .w-300 {
+        margin-top: -180px
+    }
+    .w-400 {
+        margin-top: -100px;
+    }
+    .w-500 {
+        margin-top: -152px;
+    }
+    .principal {
+        color: #8d5e32;
+        max-width: 1081px;
+        font-weight: bolder;
+        font-size: 23px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        text-align: justify;
+        margin-top: 102px;
+    }
+    .textlist {
+        color: #8d5e32;
+        max-width: 1081px;
+        font-size: 23px;
+        font-weight: 500;
+        font-weight: bolder;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        text-align: justify;
+    }
+    .ul,li,a {
+        list-style: none;
+        color: #8d5e32;
+    }
+    .inspiration {
+        text-align-last: center;
+    }
+    .PM {
+        margin-top: 20px;
+    }
 }

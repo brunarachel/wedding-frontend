@@ -8,15 +8,15 @@
     font-family: 'Urbanist', sans-serif;
     color: #8d5e32;
     max-width: 1081px;
-    margin: 0px auto;
-    padding: 80px 15px;
-    font-size: 23px;
+    margin: 0px 40px;
+    padding: 22px 0px;
+    font-size: 19px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 2;
     text-align: justify;
-    margin-top: -3%;
+    margin-top: -1%;
 }
 .w-100 {
     width: 100%;
@@ -37,7 +37,7 @@
     border-right-color: #a47f6f;
     border-bottom-color: #a47f6f;
     border-left-color: #a47f6f;
-    margin: 40%
+    margin: 20%;
    }
    a:hover {
     background: #B1B1B1;
@@ -45,3 +45,51 @@
     font-weight: bold;
     border-color: #B1B1B1;
    }
+   @media(min-width: 1200px) {
+    * {
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        background: url(../img/fundo.png);
+    }
+    .principal {
+        font-family: 'Urbanist', sans-serif;
+        color: #8d5e32;
+        max-width: 1081px;
+        margin: 0px auto;
+        padding: 80px 15px;
+        font-size: 23px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        text-align: justify;
+        margin-top: -3%;
+    }
+    .w-100 {
+        width: 100%;
+        margin-top: 4%;
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    .link {
+        background: #a47f6f;
+        color: #d9d6d3;
+        text-decoration: none;
+        font-weight: 700;
+        border-width: 4px;
+        border-style: solid;
+        border-top-color: #DFDFDF;
+        border-right-color: #a47f6f;
+        border-bottom-color: #a47f6f;
+        border-left-color: #a47f6f;
+        margin: 40%
+       }
+       a:hover {
+        background: #B1B1B1;
+        color: #FFF;
+        font-weight: bold;
+        border-color: #B1B1B1;
+   }
+}

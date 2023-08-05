@@ -162,8 +162,10 @@ h1,h2 {
 .pizza-item--img {
     width:200px;
     height:200px;
-    background-color:#EEE;
-    /* border-radius:100px; */
+    background-color:#FFF;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     box-shadow:0px 10px 50px rgba(0, 0, 0, 0.2);
 }
 

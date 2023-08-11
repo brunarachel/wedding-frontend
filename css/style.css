@@ -1,8 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Urbanist:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Quicksand:wght@300&family=Sen&family=Urbanist:wght@300&display=swap');
+
 :root{
     --cor-fundo : #8d5e32;
-    --cor-hover : #c95734;
+    --cor-hover : hsl(0, 0%, 90%);
     --cor-primaria : #2a4068;
 }
 *{
@@ -24,7 +26,6 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 197px;
-    width: 87%;
     background: transparent;
 }
 .relogio div {
@@ -47,25 +48,25 @@ body {
 .relogio span.tempo {
     font-size: 10px;
 }
-.center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.align-center {
     align-items: center;
-    background-image: url(fundo.png);
+}
+.flex-column {
+    flex-direction: column;
+}
+.d-flex {
+    display: flex;
 }
 .pt-80 {
     padding-top: 80px;
-}
-.pt-64 {
-    padding-top: 64px;
 }
 .h1,h2,h3,h4 {
     color: #8d5e32;
 }
 .textum {
-    font-size: 17px;
-    padding-top: 49px;
+    font-size: 16px;
+    padding-top: 6px;
+    margin: 19px;
 }
 .textdois {
     padding-top: 22px;
@@ -75,9 +76,11 @@ body {
     margin: 0px 36px;
     padding-top: 52px;
     font-size: 19px;
-    text-align: center;
+    line-height: 2;
+    text-align: justify;
 }
 .elemento-dois {
+    margin-left: 15px;
     width: 89%;
     margin-top: 65px;
 }
@@ -89,7 +92,7 @@ body {
     font-stretch: normal;
     font-style: normal;
     line-height: 2;
-    text-align: center;
+    text-align: justify;
     margin-top: 65px;
 }
 .w-100 {
@@ -100,17 +103,48 @@ body {
 }
 .paragrafo {
     margin: 0px auto;
-    padding: 80px 0px;
+    padding: 40px 0px;
     font-size: 19px;
     font-weight: bolder;
     font-stretch: normal;
     font-style: normal;
     line-height: 2;
-    text-align: center;
+    text-align: justify;
 }
 .local {
     width: 100%;
     margin-top: 60px;
+}
+.web {
+    display: none;
+}
+.mobile {
+    display: unset;
+}
+video {
+    width: 100%;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.photo {
+    position: relative;
+    overflow: hidden;
+}
+.photo img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+.photo:hover img {
+    transform: scale(1.1);
+}
+.photo img {
+    cursor: pointer;
 }
 
 @media(min-width: 1200px) {
@@ -174,11 +208,11 @@ body {
         font-size: 43px;
     }
     .texttres {
-        padding-top: 35px;
-        font-size: 23px;
+        padding-top: 97px;
+        font-size: 27px;
     }
     .elemento-dois {
-        width: 519px;
+        width: 300px;
         margin-top: 65px;
     }
     .textquatro {
@@ -202,7 +236,7 @@ body {
     .paragrafo {
         max-width: 1110px;
         margin: 0px auto;
-        padding: 80px 0px;
+        padding: 22px 0px;
         font-size: 25px;
         font-weight: bolder;
         font-stretch: normal;
@@ -213,5 +247,11 @@ body {
     .local {
         width: 100%;
         margin-top: 60px;
+    }
+    .web {
+        display: unset;
+    }
+    .mobile {
+        display: none;
     }
 }

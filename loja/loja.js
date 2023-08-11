@@ -33,7 +33,7 @@ let pizzaJson = [
       id: 4,
       name: "Multiprocessador Britânia All In One",
       img: "images/presentes/img4.jpg",
-      price: [399.90],
+      price: [400.00],
       sizes: [
         "Pix",
         "Cartão de Crédito"
@@ -73,7 +73,7 @@ let pizzaJson = [
       id: 8,
       name: "Adega de vinhos",
       img: "images/presentes/img8.jpg",
-      price: [129.00],
+      price: [140.00],
       sizes: [
         "Pix",
         "Cartão de Crédito"
@@ -113,7 +113,7 @@ let pizzaJson = [
   id: 12,
   name: "Sanduicheira",
   img: "images/presentes/img12.jpg",
-  price: [89.00],
+  price: [95.00],
   sizes: [
     "Pix",
     "Cartão de Crédito"
@@ -183,7 +183,7 @@ let pizzaJson = [
   id: 19,
   name: "Conjunto de copos",
   img: "images/presentes/img19.jpg",
-  price: [75.00],
+  price: [110.00],
   sizes: [
     "Pix",
     "Cartão de Crédito"
@@ -203,7 +203,7 @@ let pizzaJson = [
   id: 21,
   name: "Jarra",
   img: "images/presentes/img21.webp",
-  price: [50.00],
+  price: [90.00],
   sizes: [
     "Pix",
     "Cartão de Crédito"
@@ -213,7 +213,7 @@ let pizzaJson = [
   id: 22,
   name: "Jogo de Sobremesa",
   img: "images/presentes/img22.webp",
-  price: [80.00],
+  price: [100.00],
   sizes: [
     "Pix",
     "Cartão de Crédito"
@@ -233,7 +233,7 @@ let pizzaJson = [
   id: 24,
   name: "Jogo de facas",
   img: "images/presentes/img24.webp",
-  price: [90.00],
+  price: [120.00],
   sizes: [
     "Pix",
     "Cartão de Crédito"
@@ -253,7 +253,7 @@ let pizzaJson = [
   id: 26,
   name: "Tábua para churrasco",
   img: "images/presentes/img26.png",
-  price: [90.00],
+  price: [160.00],
   sizes: [
     "Pix",
     "Cartão de Crédito"
@@ -263,7 +263,7 @@ let pizzaJson = [
   id: 27,
   name: "Jogos de Tabuleiro",
   img: "images/presentes/img27.webp",
-  price: [259.00],
+  price: [260.00],
   sizes: [
     "Pix",
     "Cartão de Crédito"
@@ -313,7 +313,7 @@ let pizzaJson = [
   id: 33,
   name: "Saladeira",
   img: "images/presentes/img33.webp",
-  price: [95.00],
+  price: [85.00],
   sizes: [
     "Pix",
     "Cartão de Crédito"
@@ -333,7 +333,7 @@ let pizzaJson = [
   id: 35,
   name: "Bombonière",
   img: "images/presentes/img35.webp",
-  price: [70.00],
+  price: [100.00],
   sizes: [
     "Pix",
     "Cartão de Crédito"

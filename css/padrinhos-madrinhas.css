@@ -108,7 +108,6 @@ body {
     }
     body {
         background: url(../img/fundo.png);
-        background-size: cover;
     }
     .d-flex {
         display: flex;
@@ -167,5 +166,25 @@ body {
     }
     .PM {
         margin-top: 20px;
+    }
+    .cores {
+        width: 40%;
+    }
+    .paleta {
+        width: 40%;
+    }
+    .padrinhos {
+        width: 50%;
+    }
+    .cinza {
+        width: 50%;
+    }
+    .folhagem {
+        width: 35%;
+        margin-top: 10%;
+    }
+    .pm {
+        margin: 13%;
+        width: 76%;
     }
 }

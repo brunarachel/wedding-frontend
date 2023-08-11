@@ -91,7 +91,7 @@ img {
     font-weight: bold;
     border-color: #B1B1B1;
    }
-   @media(min-width: 1200px) {
+ @media(min-width: 1200px) {
 body {
     min-height: 100vh;
     background: url(../img/fundo.png);

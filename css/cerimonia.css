@@ -12,7 +12,8 @@ body {
     background: url(../img/fundo.png);
 }
 .praia {
-    width: 100%;
+    width: 90%;
+    margin: 24px 24px;
 }
 .w-100 {
     width: 100%;
@@ -79,6 +80,10 @@ body {
     .mt-40 {
         margin-top: 40px;
     }
-
+    .praia {
+        width: 43%;
+        margin: 24px 24px;
+        margin-left: 373px;
+    }
 }
 

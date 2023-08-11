@@ -201,8 +201,8 @@ h1,h2 {
 
 .pizza-item--name {
     font-size:20px;
-    font-weight: bold;
-    color:#000;
+    font-weight: 500;
+    color: #a8803f;
     margin-top:5px;
 }
 
@@ -256,6 +256,7 @@ h1,h2 {
 
 .pizzaInfo h1 {
     margin-top:50px;
+    margin-left: -97px;
 }
 
 .pizzaInfo .pizzaInfo--desc {
@@ -357,8 +358,9 @@ h1,h2 {
 }
 
 .pizzaInfo--cancelButton {
-    display:inline-block;
-    cursor:pointer;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 .pizzaInfo--cancelMobileButton {

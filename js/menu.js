@@ -1,7 +1,6 @@
 class Menu extends HTMLElement {
     constructor() {
         super()
-
         this.build()
     }
 
@@ -13,7 +12,7 @@ class Menu extends HTMLElement {
 
     menu() {
         const menu = `
-        <header>
+        <header class="web">
             <a href="index.html" class="logo">B&G</a>
             <div class="menu">
                 <nav class="dp-menu">
@@ -86,36 +85,50 @@ class Menu extends HTMLElement {
                  position: relative;
                  float: left;
              }
-             .dp-menu ul li a{
-                 font-weight: bolder;
-                 font-size: 20px;
-                 padding: 20px;
-                 color: #8d5e32;
-                 display: block;
-                 text-decoration: none;
-             }
-             .dp-menu ul li a:hover{
-                 background: #a8803f;
-                 color:white
-             }
-             .dp-menu ul li ul{
-                 position: absolute;
-                 left: 0;
-                 width: 200px;
-                 background: #fff;
-                 display: none;
-             }
-             .dp-menu ul li ul li{
-                 width: 100%;
-                 border-top: 1px solid rgba(0,0,0,.1);
-             }
-             .dp-menu ul li ul li ul{
-                 left: 200px;
-                 top:0;
-             }
-             .dp-menu ul li:hover > ul{
-                 display: initial;
-             }
+            .dp-menu ul li a{
+                font-weight: bolder;
+                font-size: 20px;
+                padding: 20px;
+                color: #8d5e32;
+                display: block;
+                text-decoration: none;
+            }
+            .dp-menu ul li a:hover{
+                background: #a8803f;
+                color:white
+            }
+            .dp-menu ul li ul{
+                position: absolute;
+                left: 0;
+                width: 200px;
+                background: #fff;
+                display: none;
+            }
+            .dp-menu ul li ul li{
+                width: 100%;
+                border-top: 1px solid rgba(0,0,0,.1);
+            }
+            .dp-menu ul li ul li ul{
+                left: 200px;
+                top:0;
+            }
+            .dp-menu ul li:hover > ul{
+                display: initial;
+            }
+            .web {
+                display: none;
+            }
+            .mobile {
+                display: unset;
+            }
+            @media(min-width: 1200px) {
+                .web {
+                    display: flex;
+                }
+                .mobile {
+                    display: none;
+                }
+            }
         `
         return style
     }

@@ -9,11 +9,29 @@
         <title>Mensagem</title>
     </head>
     <body>
-        <!-- <header-menu></header-menu> -->
+        <header-menu></header-menu>
         <script src="../js/menu.js"></script>
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            <h1>Deixe sua mensagem para nós!</h1>
+        
+        <header-menu-mobile></header-menu-mobile>
+        <script src="../js/menu-mobile.js"></script>
+        <div class="d-flex flex-column justify-content-center align-items-center">        
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    const form = document.querySelector("form");
+                    let mensagemEnviada = false;
+                
+                    form.addEventListener("submit", function(event) {
+                        if (mensagemEnviada) {
+                            event.preventDefault();
+                            alert("Essa mensagem já foi enviada anteriormente.");
+                        } else {
+                            mensagemEnviada = true;
+                        }
+                    });
+                });
+            </script>
             <form class="d-flex justify-content-center flex-column" action="https://formsubmit.co/bruna_rachel_miranda@hotmail.com" method="POST">
+                <h1>Deixe sua mensagem para nós!</h1>
                 <input type="text" name="name" placeholder="Nome" required/>
                 <input type="email" name="email" placeholder="E-mail" required/>
                 <textarea  name="message" placeholder="Escreva aqui" required></textarea>

@@ -5,26 +5,23 @@
     background: url(../img/fundo.png);
 }
 .principal {
-    font-family: 'Urbanist', sans-serif;
-    color: #8d5e32;
-    max-width: 1081px;
     margin: 0px 40px;
-    padding: 22px 0px;
+    color: #8d5e32;
+    font-weight: bolder;
     font-size: 19px;
-    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 2;
     text-align: justify;
-    margin-top: -1%;
+    margin-top: 50px;
 }
 .w-100 {
     width: 100%;
-    margin-top: 4%;
 }
 .container {
-    display: flex;
-    justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 }
 .link {
     background: #a47f6f;

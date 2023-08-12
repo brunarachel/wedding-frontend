@@ -13,32 +13,32 @@ class Menu extends HTMLElement {
     menu() {
         const menu = `
         <header class="web">
-            <a href="index.html" class="logo">B&G</a>
+            <a href="../index.html" class="logo">B&G</a>
             <div class="menu">
                 <nav class="dp-menu">
                     <ul>
                         <li><a href="#">Páginas</a>
                             <ul>
-                                <li><a href="mensagens-noivos.html">Mensagens aos noivos</a></li>
-                                <li><a href="dicas.html">DressCode</a></li>
-                                <li><a href="padrinhos-madrinhas.html">Padrinhos e Madrinhas</a></li>
+                                <li><a href="../pages/mensagens-noivos.html">Mensagens aos noivos</a></li>
+                                <li><a href="../pages/dicas.html">DressCode</a></li>
+                                <li><a href="../pages/padrinhos-madrinhas.html">Padrinhos e Madrinhas</a></li>
                             </ul>
                         </li>
-                        <li><a href="localizacao.html">Localização</a>
+                        <li><a href="../pages/localizacao.html">Localização</a>
                             <ul>
-                                <li><a href="localizacao.html">Dicas de Hospedagem</a></li>
-                                <li><a href="cerimonia.html">Cerimônia</a></li>
-                                <li><a href="festa.html">Festa</a></li>
+                                <li><a href="../pages/localizacao.html">Dicas de Hospedagem</a></li>
+                                <li><a href="../pages/cerimonia.html">Cerimônia</a></li>
+                                <li><a href="../pages/festa.html">Festa</a></li>
                             </ul>
                         </li>
-                        <li><a href="loja.html">Presentes</a>
+                        <li><a href="../pages/loja.html">Presentes</a>
                             <ul>
-                                <li><a href="loja.html">Lista de Presentes</a></li>
+                                <li><a href="../pages/loja.html">Lista de Presentes</a></li>
                             </ul>
                         </li>
-                        <li><a href="confirmar-presenca.html">Confirmação de Presença</a>
+                        <li><a href="../pages/confirmar-presenca.html">Confirmação de Presença</a>
                             <ul>
-                                <li><a href="confirmar-presenca.html">Confirmar Presença</a></li>
+                                <li><a href="../pages/confirmar-presenca.html">Confirmar Presença</a></li>
                             </ul> 
                         </li> 
                     </ul>

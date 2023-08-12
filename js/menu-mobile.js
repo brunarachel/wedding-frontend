@@ -13,19 +13,19 @@ class MenuMobile extends HTMLElement {
     menu() {
         const menu = `
             <div class="mobile menu-mobile">
-                <a href="index.html" class="logo">B&G</a>
+                <a href="../index.html" class="logo">B&G</a>
                 <nav class="nav">
                     <input type="checkbox" id="checkbox" class="checkbox"/>
                     <label for="checkbox" class="label-menu">Menu<span class="hamburger"></span></label>
                     <ul class="menu">
-                    <li><a href="mensagens-noivos.html">Mensagens aos noivos</a></li>
-                    <li><a href="dicas.html">DressCode</a></li>
-                    <li><a href="padrinhos-madrinhas.html">Padrinhos e Madrinhas</a></li>
-                    <li><a href="localizacao.html">Dicas de Hospedagem</a></li>
-                    <li><a href="cerimonia.html">Cerimônia</a></li>
-                    <li><a href="festa.html">Festa</a></li>
-                    <li><a href="loja.html">Lista de Presentes</a></li>
-                    <li><a href="confirmar-presenca.html">Confirmar Presença</a></li>
+                    <li><a href="../pages/mensagens-noivos.html">Mensagens aos noivos</a></li>
+                    <li><a href="../pages/dicas.html">DressCode</a></li>
+                    <li><a href="../pages/padrinhos-madrinhas.html">Padrinhos e Madrinhas</a></li>
+                    <li><a href="../pages/localizacao.html">Dicas de Hospedagem</a></li>
+                    <li><a href="../pages/cerimonia.html">Cerimônia</a></li>
+                    <li><a href="../pages/festa.html">Festa</a></li>
+                    <li><a href="../pages/loja.html">Lista de Presentes</a></li>
+                    <li><a href="../pages/confirmar-presenca.html">Confirmar Presença</a></li>
                     </ul>
                 </nav>
             </div>

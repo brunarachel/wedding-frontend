@@ -18,6 +18,7 @@ class MenuMobile extends HTMLElement {
                     <input type="checkbox" id="checkbox" class="checkbox"/>
                     <label for="checkbox" class="label-menu">Menu<span class="hamburger"></span></label>
                     <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
                     <li><a href="../pages/mensagens-noivos.html">Mensagens aos noivos</a></li>
                     <li><a href="../pages/dicas.html">DressCode</a></li>
                     <li><a href="../pages/padrinhos-madrinhas.html">Padrinhos e Madrinhas</a></li>

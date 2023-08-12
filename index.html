@@ -15,9 +15,14 @@
         <script src="js/menu-mobile.js"></script>
         <div class="center pt-64">
             <div class="video"> 
-                <video autoplay loop muted plays-inline class="mobile">
+                <video controls autoplay loop muted plays-inline  autoplay="autoplay" id="autoplay" class="mobile">
                     <source src="../img/mar390.mp4" type="video/mp4">
                 </video>
+                <script>
+                  window.onload = function() {
+                    document.getElementById("autoplay").play();
+                  }
+                </script>
                 <video autoplay loop muted plays-inline class="web">
                     <source src="../img/mar1200.mp4" type="video/mp4">
                 </video>

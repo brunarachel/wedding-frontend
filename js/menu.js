@@ -31,9 +31,9 @@ class Menu extends HTMLElement {
                                 <li><a href="festa.html">Festa</a></li>
                             </ul>
                         </li>
-                        <li><a href="lista-presentes.html">Presentes</a>
+                        <li><a href="loja.html">Presentes</a>
                             <ul>
-                                <li><a href="../loja/index.html">Lista de Presentes</a></li>
+                                <li><a href="loja.html">Lista de Presentes</a></li>
                             </ul>
                         </li>
                         <li><a href="confirmar-presenca.html">Confirmação de Presença</a>

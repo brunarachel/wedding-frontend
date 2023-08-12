@@ -24,7 +24,7 @@ class MenuMobile extends HTMLElement {
                     <li><a href="localizacao.html">Dicas de Hospedagem</a></li>
                     <li><a href="cerimonia.html">Cerimônia</a></li>
                     <li><a href="festa.html">Festa</a></li>
-                    <li><a href="../loja/index.html">Lista de Presentes</a></li>
+                    <li><a href="loja.html">Lista de Presentes</a></li>
                     <li><a href="confirmar-presenca.html">Confirmar Presença</a></li>
                     </ul>
                 </nav>
@@ -36,11 +36,13 @@ class MenuMobile extends HTMLElement {
     styles() {
         const style = document.createElement('style')
         style.textContent = `
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             text-decoration: none;
+            font-family: 'Quicksand', sans-serif;
         }
         .web {
             display: none;
@@ -49,7 +51,7 @@ class MenuMobile extends HTMLElement {
             display: unset;
         }
         a {
-            color: var(--cor-fundo);
+            color: #8d5e32;
             font-size: 20px;
             line-height: 70px;
             font-weight: 700;
@@ -90,7 +92,7 @@ class MenuMobile extends HTMLElement {
             border-radius: 0;
         }
         menu a:hover {
-            background: var(--cor-hover);
+            background: hsl(0, 0%, 90%);
         }
         .label-menu {
             font-weight: 700;
@@ -107,7 +109,7 @@ class MenuMobile extends HTMLElement {
             display:flex;
             align-items: center;
             gap:0.5rem;
-            color:var(--cor-fundo);
+            color: #8d5e32;
             padding-block: 1rem;
             cursor: pointer;
         }

@@ -29,7 +29,7 @@ body {
 }
 .relogio div {
     height: 81px;
-    width: 76px;
+    width: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;

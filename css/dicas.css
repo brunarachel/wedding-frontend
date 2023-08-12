@@ -97,6 +97,12 @@ img {
     font-weight: bold;
     border-color: #B1B1B1;
    }
+   .elemento-dois {
+     max-width: 55%;
+   }
+   .center {
+        text-align: -webkit-center;
+   }
 @media(min-width: 1200px) {
     body {
         min-height: 100vh;
@@ -188,4 +194,7 @@ img {
         font-weight: bold;
         border-color: #B1B1B1;
     }
+    .elemento-dois {
+        max-width: 100%;
+      }
 }

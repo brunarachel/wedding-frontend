@@ -1,20 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
 }
 body {
-    width: 100%;
-    height: 100vh;
     background: url(../img/fundo.png);
-    background-size: cover;
-    padding-right: 1rem;
-    padding-left: 1rem;
 }
 .d-flex {
-    display:flex;
+    display: flex;
 }
 .flex-column {
     flex-direction: column;
@@ -26,16 +21,15 @@ body {
     align-items: center;
 }
 h1 {
-    font-size: 25px;
+    font-size: 21px;
     color: #a55e37;
-    margin-top: 137px;
-    margin-bottom: 2rem;
+    margin-top: 40px;
+    margin-bottom: 3rem;
     text-align: center;
-    line-height: 1.2;
+    line-height: 1.5rem;
 }
 form {
-    width: 100%;
-    max-width: 32rem;
+    width: 80%;
     font-size: 1.125rem;
 }
 form label, form input, form textarea, form button {
@@ -47,16 +41,16 @@ form label {
     line-height: 1;
     margin-bottom: 0.5rem;
 }
-form input, 
-form textarea {
+form input, form textarea {
     font: inherit;
-    padding: 0.8rem;
+    padding: 15px 0px;
     margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: 8px;
+    text-indent: 20px;
 }
 form textarea {
-    min-height: 13rem;
+    min-height: 4rem;
     resize: vertical;
 }
 form input:hover,
@@ -75,5 +69,84 @@ form button {
     border-radius: 8px;
     cursor:pointer;
     transition: 0.2s;
+}
+form button:hover {
+    background: #efb352;
+}
+@media(min-width: 1200px) {
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+    }
+    body {
+        background: url(../img/fundo.png);
+        background-size: cover;
+    }
+    .d-flex {
+        display:flex;
+    }
+    .flex-column {
+        flex-direction: column;
+    }
+    .justify-content-center {
+        justify-content: center;
+    }
+    .align-items-center {
+        align-items: center;
+    }
+    h1 {
+        font-size: 25px;
+        color: #a55e37;
+        margin-top: 137px;
+        margin-bottom: 2rem;
+        text-align: center;
+        line-height: 1.2;
+    }
+    form {
+        width: 100%;
+        max-width: 32rem;
+        font-size: 1.125rem;
+    }
+    form label, form input, form textarea, form button {
+        display:block;
+        width: 100%;
+    }
+    form label {
+        color:#0d0c0c;
+        line-height: 1;
+        margin-bottom: 0.5rem;
+    }
+    form input, 
+    form textarea {
+        font: inherit;
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 8px;
+    }
+    form textarea {
+        min-height: 13rem;
+        resize: vertical;
+    }
+    form input:hover,
+    form input:focus, 
+    form textarea:hover, 
+    form textarea:focus {
+        outline: none;
+    }
+    form button {
+        display: block;
+        padding: 1rem;
+        background: #a8803f;
+        color: #fff;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 8px;
+        cursor:pointer;
+        transition: 0.2s;
+    }    
+
 }
     

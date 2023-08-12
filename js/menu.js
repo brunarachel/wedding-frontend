@@ -1,7 +1,6 @@
 class Menu extends HTMLElement {
     constructor() {
         super()
-
         this.build()
     }
 
@@ -13,29 +12,28 @@ class Menu extends HTMLElement {
 
     menu() {
         const menu = `
-        <header>
+        <header class="web">
             <a href="index.html" class="logo">B&G</a>
             <div class="menu">
                 <nav class="dp-menu">
                     <ul>
                         <li><a href="#">Páginas</a>
                             <ul>
-                                <li><a href="nossa-historia.html">Nossa História</a></li>
                                 <li><a href="mensagens-noivos.html">Mensagens aos noivos</a></li>
-                                <li><a href="dicas.html">Dicas</a></li>
+                                <li><a href="dicas.html">DressCode</a></li>
                                 <li><a href="padrinhos-madrinhas.html">Padrinhos e Madrinhas</a></li>
                             </ul>
                         </li>
                         <li><a href="localizacao.html">Localização</a>
                             <ul>
-                                <li><a href="#">Dicas de Hospedagem</a></li>
+                                <li><a href="localizacao.html">Dicas de Hospedagem</a></li>
                                 <li><a href="cerimonia.html">Cerimônia</a></li>
                                 <li><a href="festa.html">Festa</a></li>
                             </ul>
                         </li>
-                        <li><a href="lista-presentes.html">Presentes</a>
+                        <li><a href="loja.html">Presentes</a>
                             <ul>
-                                <li><a href="../loja/index.html">Lista de Presentes</a></li>
+                                <li><a href="loja.html">Lista de Presentes</a></li>
                             </ul>
                         </li>
                         <li><a href="confirmar-presenca.html">Confirmação de Presença</a>
@@ -87,36 +85,50 @@ class Menu extends HTMLElement {
                  position: relative;
                  float: left;
              }
-             .dp-menu ul li a{
-                 font-weight: bolder;
-                 font-size: 20px;
-                 padding: 20px;
-                 color: #8d5e32;
-                 display: block;
-                 text-decoration: none;
-             }
-             .dp-menu ul li a:hover{
-                 background: #a8803f;
-                 color:white
-             }
-             .dp-menu ul li ul{
-                 position: absolute;
-                 left: 0;
-                 width: 200px;
-                 background: #fff;
-                 display: none;
-             }
-             .dp-menu ul li ul li{
-                 width: 100%;
-                 border-top: 1px solid rgba(0,0,0,.1);
-             }
-             .dp-menu ul li ul li ul{
-                 left: 200px;
-                 top:0;
-             }
-             .dp-menu ul li:hover > ul{
-                 display: initial;
-             }
+            .dp-menu ul li a{
+                font-weight: bolder;
+                font-size: 20px;
+                padding: 20px;
+                color: #8d5e32;
+                display: block;
+                text-decoration: none;
+            }
+            .dp-menu ul li a:hover{
+                background: #a8803f;
+                color:white
+            }
+            .dp-menu ul li ul{
+                position: absolute;
+                left: 0;
+                width: 200px;
+                background: #fff;
+                display: none;
+            }
+            .dp-menu ul li ul li{
+                width: 100%;
+                border-top: 1px solid rgba(0,0,0,.1);
+            }
+            .dp-menu ul li ul li ul{
+                left: 200px;
+                top:0;
+            }
+            .dp-menu ul li:hover > ul{
+                display: initial;
+            }
+            .web {
+                display: none;
+            }
+            .mobile {
+                display: unset;
+            }
+            @media(min-width: 1200px) {
+                .web {
+                    display: flex;
+                }
+                .mobile {
+                    display: none;
+                }
+            }
         `
         return style
     }

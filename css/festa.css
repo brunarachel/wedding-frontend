@@ -1,24 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 * {
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
     background: url(../img/fundo.png);
 }
 .principal {
-    font-family: 'Urbanist', sans-serif;
+    margin: 0px 40px;
     color: #8d5e32;
-    max-width: 1081px;
-    margin: 0px auto;
-    padding: 80px 15px;
-    font-size: 23px;
-    font-weight: 500;
+    font-weight: bolder;
+    font-size: 19px;
     font-stretch: normal;
     font-style: normal;
     line-height: 2;
     text-align: justify;
-    margin-top: 102px;
+    margin-top: 50px;
+}
+.w-100 {
+    width: 100%;
 }
 .container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.link {
+    background: #a47f6f;
+    color: #d9d6d3;
+    text-decoration: none;
+    font-weight: 700;
+    border-width: 4px;
+    border-style: solid;
+    border-top-color: #DFDFDF;
+    border-right-color: #a47f6f;
+    border-bottom-color: #a47f6f;
+    border-left-color: #a47f6f;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+a:hover {
+    background: #B1B1B1;
+    color: #FFF;
+    font-weight: bold;
+    border-color: #B1B1B1;
+}
+.web {
+    display: none;
+}
+.mobile {
+    display: unset;
+}
+
+@media(min-width: 1200px) {
+    * {
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        background: url(../img/fundo.png);
+    }
+    .principal {
+        font-family: 'Urbanist', sans-serif;
+        color: #8d5e32;
+        max-width: 1081px;
+        margin: 0px auto;
+        padding: 80px 15px;
+        font-size: 23px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        text-align: justify;
+        margin-top: 0;
+    }
+    .w-100 {
+        width: 100%;
+        margin-top: 4%;
+    }
+    .link {
+        background: #a47f6f;
+        color: #d9d6d3;
+        text-decoration: none;
+        font-weight: 700;
+        border-width: 4px;
+        border-style: solid;
+        border-top-color: #DFDFDF;
+        border-right-color: #a47f6f;
+        border-bottom-color: #a47f6f;
+        border-left-color: #a47f6f;
+        margin: 0;
+        margin-top: -40px;
+        margin-bottom: 80px;
+    }
+    a:hover {
+        background: #B1B1B1;
+        color: #FFF;
+        font-weight: bold;
+        border-color: #B1B1B1;
+    }
+    .web {
+        display: unset;
+    }
+    .mobile {
+        display: none;
+    }
 }

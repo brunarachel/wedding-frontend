@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/Anel.png" />
+    <title>Lista de Presentes B&G</title>
+    <link rel="stylesheet" href="../css/loja.css" />
+</head>
+<body>
+    <!-- modelos de pizza na lista e no carrinho -->
+    <div class="models">x
+        <!-- pizza no carrinho -->
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+             <!-- pizza na lista -->
+             <div class="pizza-item">
+                <a href="">
+                    <div class="pizza-item--img"><img src="" /></div>
+                    <div class="pizza-item--name">--</div>
+                    <div class="pizza-item--price">R$ --</div>
+                    <div class="pizza-item--add">Presentear</div>
+                </a>
+            </div>
+    </div>
+    <header-menu></header-menu>
+    <script src="../js/menu.js"></script>
+    <header-menu-mobile></header-menu-mobile>
+    <script src="../js/menu-mobile.js"></script>
+    <main>
+        <h2>LOJA VIRTUAL DE PRESENTES</h2>
+        <h2 class="mb">Queridos amigos e familiares, para nós, a presença de vocês neste dia especial é o maior presente que poderíamos receber. Mas, caso queiram nos presentear criamos essa lista de casamento que será convertida em dinheiro, pois o nosso cantinho já está mobiliado, e este valor será útil para que possamos usufruir na nossa viagem de lua de mel, ficaremos muito agradecidos. Com amor Bruna e Gabriel.</h2>
+
+        <div class="pizza-area"></div>
+    </main>
+    <!-- /conteudo principal -->
+
+    <!-- aside do carrinho -->
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Suas Pizzas</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <!-- /aside do carrinho -->
+
+    <!-- janela modal .pizzaWindowArea -->
+    <div class="pizzaWindowArea">
+        <div class="pizzaWindowBody">
+            <div class="pizzaInfo--cancelMobileButton">Voltar</div>
+            <div class="pizzaBig">
+                <img src="" />
+            </div>
+            <div class="pizzaInfo">
+                <h1>--</h1>
+                <div class="pizzaInfo--sizearea">
+                    <!-- <div class="pizzaInfo--sector">Forma de Pagamento</div> -->
+                    <div class="imgpix">
+                        <img class="pix" src="../img/pixx.jpg" alt="code">
+                    </div>
+                </div>
+                <div class="pizzaInfo--pricearea">
+                    <div class="pizzaInfo--sector">Preço</div>
+                    <div class="pizzaInfo--price">
+                        <div class="pizzaInfo--actualPrice">R$ --</div>
+                        <div class="pizzaInfo--qtarea">
+                            <button class="pizzaInfo--qtmenos">-</button>
+                            <div class="pizzaInfo--qt">1</div>
+                            <button class="pizzaInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="pizzaInfo--addButton">Adicionar ao carrinho</div> -->
+                <div class="pizzaInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+    <!-- /janela modal .pizzaWindowArea -->
+
+    <script src="../js/loja.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

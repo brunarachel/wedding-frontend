@@ -471,11 +471,6 @@ h1,h2 {
     header {
         display:flex;
     }
-    /*
-    main {
-        padding-top:60px;
-    }
-    */
     aside {
         width:auto;
         position:fixed;
@@ -514,9 +509,20 @@ h1,h2 {
         width: 75%;
         height: auto;
     }
-
+    .pizzaInfo {
+        display: flex;
+        flex-direction: column;
+        text-align: -webkit-center;
+    }
     .pizzaInfo h1 {
         margin-top:20px;
+        margin-left: 0;
+    }
+    .pizzaInfo--price {
+        place-content: center;
+    }
+    main {
+        margin-top: 25px;
     }
 
     .pizzaInfo--qtarea {
